@@ -44,5 +44,5 @@ function populateGradebook(data) {
       row.appendChild(columns.grade);
       // Add the row to the table itself to make the data visible
       tableElm.appendChild(row);
-    }0;
+    });
 }
