@@ -22,8 +22,6 @@ function fetchGradeData() {
   xhr.open("get", apiRoute, true);
   xhr.send();
 }
-        
-}
 
 // TODO: Pupulate the table with grade data
 function populateGradebook(data) {
